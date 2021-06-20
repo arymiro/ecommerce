@@ -94,14 +94,10 @@ margin:auto;
           margin-right: auto;
       }
       .contenedorHijo{
-          font-size: 20px;
-     
-           
+          font-size: 20px;                
       }
-        
 
-
-      button{
+         button{
           background-color: rgb(39, 39, 226);
           font-size: 20px;
           color: white;
@@ -111,6 +107,104 @@ margin:auto;
           font-weight: 500;
           border: rgb(39, 39, 226);
           border-radius: 8px;
+     }
+.contenedorCategoria ul li{
+    font-family: cursive;
+    font-size: 18px;
+    padding: 30px;
+    padding-top: 30px;
+    width: 15%;
+	text-decoration: none;
+    list-style:none;
+    color: black;
+}
+a{
+    color: black;
+}
+.contenedorCategoria li:hover{
+    background-color:rgb(231, 159, 49);
+    color:#000;
+    }
+
+    #box-container {
+        display: flex;
+        height: 300px;
+        padding-top: 3%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+
+    
+      }
+      #box-1 {
+        background-color: dodgerblue;
+        width: 50%;
+        height: 70%;
+        margin-right: 2%;
 
 
       }
+    
+      #box-2 {
+        background-color: orangered;
+        width: 50%;
+        height: 70%;
+        margin-right: 2%;
+
+      }
+      #box-3 {
+        background-color: blue;
+        width: 50%;
+        height: 70%;
+        margin-right: 2%;
+
+      }
+      #box-4 {
+        background-color: rgb(88, 29, 47);
+        width: 50%;
+        height: 70%;
+        margin-right: 2%;
+
+      }
+  
+
+      #box-container2 {
+        display: flex;
+        height: 300px;
+        padding-top: 0%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 0%;
+
+    
+      }
+      #box-5 {
+        background-color: rgb(42, 50, 58);
+        width: 50%;
+        height: 70%;
+        margin-right: 2%;
+      }
+    
+      #box-6 {
+        background-color: pink;
+        width: 50%;
+        height: 70%;
+        margin-right: 2%;
+
+      }
+      #box-7 {
+        background-color: rgb(208, 208, 240);
+        width: 50%;
+        height: 70%;
+        margin-right: 2%;
+
+      }
+      #box-8 {
+        background-color: rgb(204, 24, 78);
+        width: 50%;
+        height: 70%;
+        margin-right: 2%;
+
+      }
+      

@@ -43,7 +43,7 @@ footer{
 
 }
 
- img{
+ .imgInicio{
 width: 500px;
 height: 300px;
 display:block;
@@ -140,7 +140,7 @@ a{
       #box-1 {
         background-color: dodgerblue;
         width: 50%;
-        height: 70%;
+        height: 80%;
         margin-right: 2%;
 
 
@@ -149,21 +149,21 @@ a{
       #box-2 {
         background-color: orangered;
         width: 50%;
-        height: 70%;
+        height: 80%;
         margin-right: 2%;
 
       }
       #box-3 {
         background-color: blue;
         width: 50%;
-        height: 70%;
+        height: 80%;
         margin-right: 2%;
 
       }
       #box-4 {
         background-color: rgb(88, 29, 47);
         width: 50%;
-        height: 70%;
+        height: 80%;
         margin-right: 2%;
 
       }
@@ -182,29 +182,38 @@ a{
       #box-5 {
         background-color: rgb(42, 50, 58);
         width: 50%;
-        height: 70%;
+        height: 80%;
         margin-right: 2%;
       }
     
       #box-6 {
         background-color: pink;
         width: 50%;
-        height: 70%;
+        height: 80%;
         margin-right: 2%;
 
       }
       #box-7 {
         background-color: rgb(208, 208, 240);
         width: 50%;
-        height: 70%;
+        height: 80%;
         margin-right: 2%;
 
       }
       #box-8 {
         background-color: rgb(204, 24, 78);
         width: 50%;
-        height: 70%;
+        height: 80%;
         margin-right: 2%;
 
       }
       
+.imgProducto img{
+    max-width:100%;width:auto;height:auto;
+}
+
+#box-1 li{
+    text-decoration: none;
+    list-style:none;
+    text-align: center;
+}
